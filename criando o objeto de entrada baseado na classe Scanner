@@ -1,0 +1,32 @@
+import java.util.Scanner; //importar classe Scanner
+
+public class Missão3_input {
+
+	public static void main(String[] args) //inicio do método principal
+	{
+		Scanner entrada = new Scanner(System.in); //criando o objeto de entrada baseado na classe Scanner
+		
+		System.out.println("Digite umafrase:"); //mostra a mensagem 1
+		String Texto = entrada.nextLine(); //lendo uma frase
+		
+		System.out.println("Digite um numero inteiro:"); //mostrando a mensagem 2
+		int N_int = entrada.nextInt(); //lendo um numero interio 
+		
+		System.out.println("Digite um numero real:"); //mostrando a mensagem 3
+		double N_double = entrada.nextDouble(); //lendo um numero com virgula
+		
+		System.out.println("Digite uma letra ou palavra:"); //mostrando a mensagem 4
+		String Palavra = entrada.next(); //lendo uma letra ou palavra
+		
+		//mostrando resultados
+	System.out.println("A frase digitada foi: " + Texto);
+	System.out.println("O numero inteiro digitado foi: " + N_int);
+	System.out.println("O numero real foi: " + N_double);
+	System.out.println("A letra ou palavra digitada foi: " + Palavra);
+	
+	//fechando o objeto entrada
+	entrada.close();
+	
+	}//fim do metodo principal
+
+}//fim da classe
