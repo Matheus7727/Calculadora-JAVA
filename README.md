@@ -43,9 +43,62 @@ public class missao1 {
 		double RESULTADO4 = (n5 / n6);
 		System.out.println("O resultado da DIVISAO e: 0.0" );
 		 System.out.println("___________________________________");
-		 
+		 }}
 
+	*
+ * Autor: Matheus Silva Batista
+ * Data: 12/09/2002
+ */
+public class Missao3_Calculadora {
+	//DECLARANDO OS ATRIBUTOS DA CLASE
+	private double R;
 	
+   public double SOMAR(double N1, double N2)
+   {//INICÍO DO MÉTODO SOMAR 
+	   //AQUI DEVE SER INSERIDO O BLOCO DE CÓDIGO QUE FAZ A SOMA
+	   R= N1 + N2;
+	   return R;
+   }   //FIM DO MÉTODO SOMAR
+   
+     public double SUBTRAIR(double N1, double N2)
+     {//INICIO DO MÉTODO SUBTRAIR
+    	 //AQUI DEVE SER INSERIDO O BLOCO DE CÓDIGO QUE FAZ A SUBTRAÇÃO
+    	 R = N1 - N2;
+    	  return R;
+     }//FIM DO MÉTODO SULBTRAIR
+   
+     public double MULTIPLICAR(double N1, double N2)
+     {//INICIO DO MÉTODO MULTIPLICAR
+    	 //AQUI DEVE SER INSERIDO O BLOCO DE CÓDIGO QUE FAZ A MULTIPLICAÇÃO
+    	 R = N1 * N2;
+    	  return R;
+     }//FIM DO MÉTODO MULTIPLICAR
+    
+     
+     
+     //METODO DIVIDIR
+     public double DIVIDIR(int N1, int N2)
+     {  
+    	 try
+    	 {
+    	 if(N1/N2<Double.MAX_VALUE)
+    	 {
+     
+    	 return N1/N2;
+    	 }
+     else 
+     {
+    	 System.out.println("Divisao por zero!");
+    	 return 0;
+     }
+    	 }
+    	 catch(Exception e)
+    	 {
+     System.out.println("Erro ao executar a divisao!");
+     return 0;
+    	 }
+     
+     }}
 		    
 	
 	
