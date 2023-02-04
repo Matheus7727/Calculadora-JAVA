@@ -1,0 +1,30 @@
+/*
+ * Autor: Matheus Silva Batista
+ * Data: 13/09/2022
+ */
+
+public class Missao2_DESAFIO2 {
+
+	public static void main(String[] args) {
+		//apresenta o título da missão (etapa "A")
+		  //inicio do bloco1
+		System.out.println("MISSÃO 2 - DASAFIO 2");
+		System.out.println("Teste de idade do aluno - VERSÃO 2");
+		//DECLARA E ATRIBUI VALOR À VARIAVEL
+		int idade = 15;
+		//FIM DO BLOCO 1
+		if (idade <=40); //teste de condição
+		{
+			//bloco 2 - deve ser executado se o resultado do teste de condição for verdadeiro
+			System.out.println("A idade é menor ou igual a 40 anos!");
+	    }
+		{      
+			//bloco 3 - deve ser executado se o resultado do teste de condição for verdadeiro
+			System.out.println("A idade é maior que 40 anos!");
+			}
+		      //inicio do bloco 4
+		System.out.println("FIM DO TESTE");
+		System.out.println("MISSÃO 2 - DESAFIO 2 CONCLUÍDO! ");
+		//FIM DO BLOCO 4
+}
+}
