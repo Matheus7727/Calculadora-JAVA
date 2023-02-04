@@ -19,3 +19,96 @@ public class Missão2_DESAFIO3 {
 	}
 
 }
+  
+  /*
+ * Autor: Matheus Silva Batista
+ * Data: 14/09/2022
+ */
+
+public class Missao2_DESAFIO4 {
+
+	public static void main(String[] args) {
+		System.out.println("MISSÃO 2 - DESAFIO 4 - WHILE");
+		System.out.println("Mostra os numeros impares de 11 a 40, inclusive os extremos.");
+		int i = 11;
+		while (i<=40)
+		{
+			if (i%2 != 0)
+			{ 
+				System.out.println(i);
+			}
+			i = i + 3;
+		}
+		System.out.println("MISSÃO 2 - DESAFIO 4 - CONCLUIDO");
+	}
+
+}
+
+
+public class Missão2_DESAFIO5 {
+	/*
+	 * Autor: Matheus Silva Batista
+	 * Data: 14/09/2022
+	 */
+
+	public static void main(String[] args) {
+		System.out.println("MISSÃO 2 - DESAFIO 5 - FOR");
+		System.out.println("Mostra os numeros de 0 a 9.");
+		for (int i = 0; i < 10 ; i++)
+		{
+			System.out.println(i);
+		}
+            System.out.println("fim do programa");
+	}
+
+}
+
+public class Missão2_DESAFIO6 {
+	/*
+	 * Autor: Matheus Silva Batista
+	 * Data: 14/09/2022
+	 */
+
+	public static void main(String[] args) {
+		System.out.println("MISSÃO 2 - DESAFIO 6 - FOR");
+		System.out.println("Mostra os numeros IMPARES ENTRE 0 e 10.");
+		for (int i = 0; i <10 ; i++)
+		{
+			if (i%2 !=0)
+			{ 
+				System.out.println(i);
+			}
+		}
+             System.out.println("fim do programa");
+	}
+
+}
+
+/*
+ * Autor: Matheus Silva Batista
+ * Data: 13/09/2022
+ */
+
+public class Missçao2_Principal {
+
+	public static void main(String[] args) {
+		
+		//INICIO DO DO BLOCO 1
+		  //APRESENTA P TÍTULO DA MISSÃO
+		System.out.println("Inicio da Missão 2");
+		//DECLARA E ATRIBUI VALOR VARIÁVEL IDADE
+		int IDADE = 15;
+		System.out.println("Pograma para testar a idade do aluno. ");
+		//FIM DO BLOCO 1
+		  //REALIZA O TESTE DE CONDIÇÃO 
+		if (IDADE==40);  
+		{
+			//BLOCO 2
+			System.out.println("O aluno aparentemente tem exatamente 40 anos.");
+		}
+		//BLOCO 3 
+		System.out.println("Fim do teste de idade.");
+	}
+
+}
+
