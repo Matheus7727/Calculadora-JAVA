@@ -1,0 +1,21 @@
+/*
+ * Autor: Matheus Silva Batista
+ * Data:14/09/2022
+ */
+
+public class Missão2_DESAFIO3 {
+
+	public static void main(String[] args) {
+	System.out.println("MISSÃO 2 - DESAFIO 3 - WHILE");
+    System.out.println(" codigo exemplo de repetiçao ");
+    int idade = 10;
+    while (idade <18)
+    {
+    	   System.out.println(idade);
+    	   idade = idade + 1;
+    }
+    System.out.println("Fim do código do Laço de Repetição");
+    System.out.println("MISSÃO 2 - DESAFIO 3 - concluido");
+	}
+
+}
