@@ -1,0 +1,28 @@
+
+/*
+ * Autor: Matheus Silva Batista
+ * Data: 13/09/2022
+ */
+
+public class Missçao2_Principal {
+
+	public static void main(String[] args) {
+		
+		//INICIO DO DO BLOCO 1
+		  //APRESENTA TÍTULO DA MISSÃO
+		System.out.println("Inicio da Missão 2");
+		//DECLARA E ATRIBUI VALOR VARIÁVEL IDADE
+		int IDADE = 15;
+		System.out.println("Programa para testar a idade do aluno. ");
+		//FIM DO BLOCO 1
+		  //REALIZA O TESTE DE CONDIÇÃO 
+		if (IDADE==40);  
+		{
+			//BLOCO 2
+			System.out.println("O aluno aparentemente tem exatamente 40 anos.");
+		}
+		//BLOCO 3 
+		System.out.println("Fim do teste de idade.");
+	}
+
+}
