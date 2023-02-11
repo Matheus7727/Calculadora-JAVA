@@ -1,0 +1,18 @@
+
+public class Missão2_DESAFIO5 {
+	/*
+	 * Autor: Matheus Silva Batista
+	 * Data: 14/09/2022
+	 */
+
+	public static void main(String[] args) {
+		System.out.println("MISSÃO 2 - DESAFIO 5 - FOR");
+		System.out.println("Mostra os numeros de 0 a 9.");
+		for (int i = 0; i < 10 ; i++)
+		{
+			System.out.println(i);
+		}
+            System.out.println("fim do programa");
+	}
+
+}
